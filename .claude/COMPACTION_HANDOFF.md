@@ -4,7 +4,7 @@ Ground truth for the next session. Read this, then `.claude/step2_plan_original.
 
 ## Where we stopped
 
-- **Step 1 is done, committed and pushed.** `main` = `e09bb93` on https://github.com/aseesy/seedlink (public). Working tree was clean at hand-off, except these two `.claude/` files, which are local and untracked.
+- **Step 1 is done, committed and pushed.** Step 1 code ends at `e09bb93` on https://github.com/aseesy/seedlink (public). This handoff and the Step 2 plan were committed after it and pushed to `main` as well, so any machine that clones the repo has them.
 - **Step 2 has not started.** The user pasted a Step 2 plan and asked "Is this a good plan?". I reviewed it and proposed 8 amendments, ending with "Say go and I'll build Step 2 with these changes." The user closed the session **without saying go**.
 - **First action next session:** ask the user to approve the amended Step 2 plan (or edit it). Build nothing until they approve.
 
